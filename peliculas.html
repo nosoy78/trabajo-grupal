@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>nosotros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
 </head>
 
 
@@ -34,7 +35,7 @@
                                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="peliculas.html">Peliculas</a>
+                                <a class="nav-link" href="iniciosecion.html">Peliculas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contacto.html">Contacto</a>
@@ -49,7 +50,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="registro.html">registrarse</a></li>
-                                    <li><a class="dropdown-item" href="iniciosecion.html">Iniciar Sesion</a></li>
+                                    <li><a class="dropdown-item" href="iniciosecion.html">Iniciar Secion</a></li>
 
 
 
@@ -69,65 +70,23 @@
 
 
     <main>
-        <br>
-        <br>
         <style>
             main {
                 background-color: rgb(134, 189, 214);
                 padding: 20px 0;
-
-            }
-
-            .tarjeta {
-                transition: background-color 0.3s ease;
-            }
-
-            .tarjeta:hover {
-                background-color: rgb(110, 138, 228);
-            }
-            h2 {
                 text-align: center;
             }
         </style>
-        <h2>Integrantes del grupo 10</h2>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card tarjeta">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrante</h5>
-                            <p>Nombre: Juan Carlos</p>
-                            <p>Apellido: Benítez</p>
-                            <p>(JCB)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card tarjeta">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrante</h5>
-                            <p>Nombre: Santiago Ariel</p>
-                            <p>Apellido: Sallago</p>
-                            <p>(SAS)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card tarjeta">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrante</h5>
-                            <p>Nombre: Fernando Javier</p>
-                            <p>Apellido: Frugoni</p>
-                            <p>(FJF)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+        <div class="contenedor" id="contenedor"></div>
+
+       
+        <div class="container1">
+            <button id="btnAnterior">Anterior</button>
+            <button id="btnSiguiente">Siguiente</button>
         </div>
         <br>
         <br>
-
 
     </main>
 
@@ -158,6 +117,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="java/pelis.js"></script>
 </body>
 
 </html>

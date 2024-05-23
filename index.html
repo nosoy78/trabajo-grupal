@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
   <title>principal</title>
 </head>
 
@@ -33,7 +34,7 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pagina1.html">Peliculas</a>
+                <a class="nav-link" href="iniciosecion.html">Peliculas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
@@ -48,7 +49,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="registro.html">registrarse</a></li>
-                  <li><a class="dropdown-item" href="iniciosecion.html">Iniciar Sesion</a></li>
+                  <li><a class="dropdown-item" href="iniciosecion.html">Iniciar Secion</a></li>
 
 
 
@@ -57,7 +58,7 @@
 
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Grupo 10" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
           </div>
@@ -65,7 +66,7 @@
       </nav>
     </div>
   </header>
-
+  <br>
 
   <main>
     <style>
@@ -75,17 +76,16 @@
         text-align: center;
       }
     </style>
-    <h2>Pagina para consultar sobre peliculas</h2>
-    <br>
+    <h2>Pagina para consulta sobre peliculas</h2>
     <style>
       h2 {
         text-align: center;
-        background-color: rgb(134, 189, 214);
+        background-color: rgb(24, 162, 226);
       }
 
       h3 {
         text-align: center;
-        background-color: rgb(134, 189, 214);
+        background-color: rgb(24, 162, 226);
       }
     </style>
 
@@ -98,14 +98,6 @@
             aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-            aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-            aria-label="Slide 7"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -116,18 +108,6 @@
           </div>
           <div class="carousel-item">
             <img src="img/kung fu.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner damsel.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner bob.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner el duro.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner planeta simios.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -164,108 +144,51 @@
     <h3>Estrenos</h3>
     <br>
     <section>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/panda.avif" class="card-img-top" alt="Imagen del video 1">
-              <div class="card-body">
-                <h5 class="card-title">Kung Fu Panda 4</h5>
-                <p class="card-text">Po está entrenando a un nuevo guerrero que ocupe su lugar para que él pueda
-                  convertirse en líder espiritual del Valle de la Paz. Sin embargo, la irrupción de una malvada
-                  hechicera que puede cambiar de apariencia trastoca sus planes.</p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#videoModal1">Ver Trailer</a>
-              </div>
+      <div class="row">
+        <di class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/panda.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kung Fu Panda 4</h5>
+              <p class="card-text">Po está entrenando a un nuevo guerrero que ocupe su lugar para que él pueda
+                convertirse en líder espiritual del Valle de la Paz. Sin embargo, la irrupción de una malvada hechicera
+                que puede cambiar de apariencia trastoca sus planes.</p>
+              <a href="#" class="btn btn-primary">Ver trailer</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/dune.avif" class="card-img-top" alt="Imagen del video 2">
-              <div class="card-body">
-                <h5 class="card-title">Duna: Parte dos</h5>
-                <p class="card-text">Sigue la mítica jornada de Paul Atreides mientras se une con Chani y los Fremen en
-                  su camino hacia la venganza contra los conspiradores. Enfrentado a una elección entre el amor de su
-                  vida y el destino del universo conocido, Paul se esfuerza por prevenir un terrible futuro que solo él
-                  puede prever.</p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#videoModal2">Ver Trailer</a>
-              </div>
+        </di>
+        <di class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/dune.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Duna: Parte dos</h5>
+              <p class="card-text">Sigue la mítica jornada de Paul Atreides mientras se une con Chani y los Fremen en su
+                camino hacia la venganza contra los conspiradores. Enfrentado a una elección entre el amor de su vida y
+                el destino del universo conocido, Paul se esfuerza por prevenir un terrible futuro que solo él puede
+                prever.</p>
+              <a href="#" class="btn btn-primary">Ver trailer</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/fantasma.avif" class="card-img-top" alt="Imagen del video 3">
-              <div class="card-body">
-                <h5 class="card-title">Ghostbusters: Apocalipsis fantasma</h5>
-                <p class="card-text">La familia Spengler regresa a la famosa estación de bomberos de la ciudad de Nueva
-                  York con los cazafantasmas originales. Cuando un antiguo artefacto desata una fuerza maligna, los
-                  cazafantasmas nuevos y antiguos deben unirse para proteger el mundo.</p>
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#videoModal3">Ver Trailer</a>
-              </div>
+        </di>
+        <di class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/fantasma.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ghostbusters: Apocalipsis fantasma</h5>
+              <p class="card-text">La familia Spengler regresa a la famosa estación de bomberos de la ciudad de Nueva
+                York con los cazafantasmas originales. Cuando un antiguo artefacto desata una fuerza maligna, los
+                cazafantasmas nuevos y antiguos deben unirse para proteger el mundo.</p>
+              <a href="#" class="btn btn-primary">Ver trailer</a>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel1"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="videoModalLabel1">Kung Fu Panda 4</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <iframe width="450" height="315" src="https://youtu.be/kg3Q63gzF6I" frameborder="0"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel2"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="videoModalLabel2">Duna: Parte dos</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <iframe width="450" height="315" src="https://youtu.be/Way9Dexny3w" frameborder="0"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel3"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="videoModalLabel3">Ghostbusters: Apocalipsis fantasma</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <iframe width="450" height="315" src="https://youtu.be/itP3y0ADBgo" frameborder="0"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
+        </di>
       </div>
     </section>
-    <br>
     <br>
 
   </main>
 
-
+  <br>
   <footer>
     <style>
       footer {
@@ -298,9 +221,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
