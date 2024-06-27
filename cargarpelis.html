@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>nosotros</title>
+    <link rel="stylesheet" href="css/cargapelis.css">
+    <title>Document</title>
 </head>
 
 
@@ -73,64 +74,32 @@
 
 
     <main>
-        <br>
-        <br>
         <style>
             main {
                 background-color: rgb(134, 189, 214);
                 padding: 20px 0;
-
-            }
-
-            .tarjeta {
-                transition: background-color 0.3s ease;
-            }
-
-            .tarjeta:hover {
-                background-color: rgb(110, 138, 228);
-            }
-            h2 {
                 text-align: center;
             }
         </style>
-        <h2>Integrantes del grupo 10</h2>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card tarjeta">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrante</h5>
-                            <p>Nombre: Juan Carlos</p>
-                            <p>Apellido: Benítez</p>
-                            <p>(JCB)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card tarjeta">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrante</h5>
-                            <p>Nombre: Santiago Ariel</p>
-                            <p>Apellido: Sallago</p>
-                            <p>(SAS)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card tarjeta">
-                        <div class="card-body">
-                            <h5 class="card-title">Integrante</h5>
-                            <p>Nombre: Fernando Javier</p>
-                            <p>Apellido: Frugoni</p>
-                            <p>(FJF)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
+         <section class="form-register">
+            <h4>Agregar Peliculas</h4>
+            <style>
+                main {
+                    background-color: rgb(134, 189, 214);
+                    padding: 20px 0;
+                    text-align: center;
+                }
+            </style>
+            <input class="controls" type="text" name="Descripcion" id="Descripcion" placeholder="Ingrese Descripcion">
+            <input class="controls" type="text" name="Genero" id="Genero" placeholder="Ingrese el Genero">
+            <input class="controls" type="text" name="Calificacion" id="Calificacion" placeholder="Ingrese la Calificacion">
+            <input class="controls" type="text" name="Año" id="Año" placeholder="Ingrese el año">
+            <input class="controls" type="text" name="Estrellas" id="Estrellas" placeholder="Ingrese las Estrellas 1 al 5">
+            <input class="controls" type="text" name="Director" id="Director" placeholder="Nombre del Director">
+            
+            <input class="botons" type="submit" value="Agregar">
+            
+          </section>
 
 
     </main>
@@ -162,6 +131,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
